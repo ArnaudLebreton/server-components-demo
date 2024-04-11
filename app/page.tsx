@@ -21,6 +21,12 @@ export default async function Home() {
         <li>
           <Link href="/find/server">Server side action</Link>
         </li>
+        <li>
+          <Link href="/tree">Client/Server Side components DOM Tree</Link>
+        </li>
+        <li>
+          <Link href="/hydratation">Hydratation error example</Link>
+        </li>
       </ul>
     </div>
   );
