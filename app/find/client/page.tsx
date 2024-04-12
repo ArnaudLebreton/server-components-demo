@@ -30,6 +30,8 @@ export default function FindClient() {
     enabled: !!search,
     initialData: [],
   });
+  
+  console.log('component render')
 
   return (
     <div>

@@ -19,7 +19,7 @@ export function CharactersList() {
     initialState,
   );
 
-  useEffect(() => console.log("Component rerender"), []);
+  console.log('component render')
 
   return (
     <div>
